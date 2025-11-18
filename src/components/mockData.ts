@@ -1,5 +1,5 @@
 import { SkillData } from './SkillCard';
-import VikaPhoto from './assets/vikatop.jpg';
+import VikaPhoto from '../components/assets/vikaphoto.jpg';
 export const mockSkills: SkillData[] = [
   {
     id: '1',
