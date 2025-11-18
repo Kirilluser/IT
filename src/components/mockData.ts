@@ -1,15 +1,15 @@
 import { SkillData } from './SkillCard';
-
+import VikaPhoto from './assets/vikatop.jpg';
 export const mockSkills: SkillData[] = [
   {
     id: '1',
-    name: 'Sarah Martinez',
-    city: 'Brooklyn, NY',
-    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah',
-    canTeach: ['Guitar', 'Music Theory'],
-    wantsToLearn: ['Photography', 'Video Editing'],
+    name: 'Vikatop',
+    city: 'Kostanay, KZ',
+    avatar: VikaPhoto,
+    canTeach: ['Guitar','Python','Web Development','Programming','Cooking'],
+    wantsToLearn: ['Photography', 'Video Editing','Spanish'],
     tags: ['Music', 'Arts'],
-    level: 'Advanced',
+    level: 'Expert',
     mode: 'Both'
   },
   {
