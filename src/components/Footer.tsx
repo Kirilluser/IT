@@ -25,28 +25,36 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               <a 
-                href="#" 
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full flex items-center justify-center transition-colors"
                 style={{ backgroundColor: 'var(--theme-bg)' }}
               >
                 <Twitter className="w-4 h-4" style={{ color: 'var(--theme-text-light)' }} />
               </a>
               <a 
-                href="#" 
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full flex items-center justify-center transition-colors"
                 style={{ backgroundColor: 'var(--theme-bg)' }}
               >
                 <Facebook className="w-4 h-4" style={{ color: 'var(--theme-text-light)' }} />
               </a>
               <a 
-                href="#" 
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full flex items-center justify-center transition-colors"
                 style={{ backgroundColor: 'var(--theme-bg)' }}
               >
                 <Instagram className="w-4 h-4" style={{ color: 'var(--theme-text-light)' }} />
               </a>
               <a 
-                href="#" 
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full flex items-center justify-center transition-colors"
                 style={{ backgroundColor: 'var(--theme-bg)' }}
               >
